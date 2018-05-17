@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body align="center">
     <h1>Yair D Massri</h1>
-        <form action="http://localhost:3178/resume-emailer" method="post">
-            <input type="hidden" name="index.html" value="./index.html"/>
-            From:<br>
-            <input type="text" name="From" value="">
-            <br>
-            Destination Email:<br>
-            <input type="text" name="Destination Email" value="">
-            <br>
-            Subject:<br>
-            <input type="text" name="Subject" value="">
-            <br>
-            Message:<br>
-            <input type="text" name="Message" value="">
-            <br><br>
-            <input type="submit" value="Send">
-          </form> 
+    <form action="http://fvi-grad.com:3179/" method="post">
+        <br>
+        <input type="text" name="from" value="" placeholder="From:">
+        <br>
+        <br>
+        <input type="text" name="destination_email" value="" placeholder="Destination Email:">
+        <br>
+        <br>
+        <input type="text" name="subject" value="" placeholder="Subject:">
+        <br>
+        <br>
+        <input type="text" name="message" value="" placeholder="Message:">
+        <br>
+        <br>
+        <input type="submit" value="Send">
+    </form>
 </body>
+
 </html>

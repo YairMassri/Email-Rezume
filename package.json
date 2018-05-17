@@ -4,12 +4,15 @@
   "description": "Email Resume",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "test",
     "start": "nodemon server.js"
   },
   "author": "Yair D Massri",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "nodemailer": "^4.6.4",
+    "nodemailer-smtp-transport": "^2.7.4"
   }
 }
